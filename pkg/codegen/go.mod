@@ -18,9 +18,8 @@ require (
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/emicklei/proto v1.14.2 // indirect
 	github.com/getkin/kin-openapi v0.134.0 // indirect
-	github.com/go-openapi/jsonpointer v0.22.5 // indirect
-	github.com/go-openapi/swag/jsonname v0.25.5 // indirect
-	github.com/go-openapi/testify/v2 v2.4.1 // indirect
+	github.com/go-openapi/jsonpointer v0.23.1 // indirect
+	github.com/go-openapi/swag/jsonname v0.26.1 // indirect
 	github.com/go-test/deep v1.1.1 // indirect
 	github.com/goccy/go-yaml v1.19.2 // indirect
 	github.com/golang/glog v1.2.5 // indirect
