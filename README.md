@@ -1,51 +1,89 @@
-![Grafana Logo (Light)](docs/logo-horizontal.png#gh-light-mode-only)
-![Grafana Logo (Dark)](docs/logo-horizontal-dark.png#gh-dark-mode-only)
+# UniSaaS.UniCORE.Grafana
 
-The open-source platform for monitoring and observability
+**SCAFFOLD-ANCHOR repository — initial scaffold 2026-06-04.**
 
-[![License](https://img.shields.io/github/license/grafana/grafana)](LICENSE)
-[![Go Report Card](https://goreportcard.com/badge/github.com/grafana/grafana)](https://goreportcard.com/report/github.com/grafana/grafana)
+Full scaffolding, upstream-fork integration, and source-code work all pending a fresh dedicated kickoff arc. This initial commit exists to lock the repository's identity, licence position, and place in the UniCORE Sanity Check fleet so the work cannot be forgotten.
 
-Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored. Create, explore, and share dashboards with your team and foster a data-driven culture:
+Author: **Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom.**
+First commit: **2026-06-04 17:45 UTC.**
 
-- **Visualizations:** Fast and flexible client side graphs with a multitude of options. Panel plugins offer many different ways to visualize metrics and logs.
-- **Dynamic Dashboards:** Create dynamic & reusable dashboards with template variables that appear as dropdowns at the top of the dashboard.
-- **Explore Metrics:** Explore your data through ad-hoc queries and dynamic drilldown. Split view and compare different time ranges, queries and data sources side by side.
-- **Explore Logs:** Experience the magic of switching from metrics to logs with preserved label filters. Quickly search through all your logs or streaming them live.
-- **Alerting:** Visually define alert rules for your most important metrics. Grafana will continuously evaluate and send notifications to systems like Slack, PagerDuty, VictorOps, OpsGenie.
-- **Mixed Data Sources:** Mix different data sources in the same graph! You can specify a data source on a per-query basis. This works for even custom datasources.
+---
 
-## Get started
+## What this repository is
 
-- [Get Grafana](https://grafana.com/get)
-- [Installation guides](https://grafana.com/docs/grafana/latest/setup-grafana/installation/)
+`bryanunitek/UniSaaS.UniCORE.Grafana` is the **Grafana** family member: SaaS-deployment-shape public gift surface. Documentation today; source code at certification.
 
-Unsure if Grafana is for you? Watch Grafana in action on [play.grafana.org](https://play.grafana.org/)!
+**Family purpose:** Open-source observability dashboards — visualisation layer for UniCORE.GVB monitoring.
 
-## Documentation
+**Deployment shape:** This is the **SaaS-shape** member of the family. It tracks the same upstream codebase as [`UniCORE.Grafana`](https://github.com/bryanunitek/UniCORE.Grafana) (on-prem shape) but carries SaaS-specific configuration, multi-tenant isolation patterns, and cloud-native deployment artefacts.
 
-The Grafana documentation is available at [grafana.com/docs](https://grafana.com/docs/).
+---
 
-## Contributing
+## Upstream
 
-If you're interested in contributing to the Grafana project:
+- **Upstream project:** https://github.com/grafana/grafana
+- **Upstream licence:** AGPL-3.0
+- **Our relationship:** Fork-and-extend. Upstream codebase is consumed verbatim under its original licence; our additions sit on top under the same copyleft licence (code) and CC BY 4.0 (docs).
 
-- Start by reading the [Contributing guide](https://github.com/grafana/grafana/blob/HEAD/CONTRIBUTING.md).
-- Learn how to set up your local environment, in our [Developer guide](https://github.com/grafana/grafana/blob/HEAD/contribute/developer-guide.md).
-- Explore our [beginner-friendly issues](https://github.com/grafana/grafana/issues?q=is%3Aopen+is%3Aissue+label%3A%22beginner+friendly%22).
-- Look through our [style guide and Storybook](https://developers.grafana.com/ui/latest/index.html).
+The merge discipline that governs how this repository absorbs upstream changes is documented in [`UPSTREAM-MERGE-DISCIPLINE.md`](UPSTREAM-MERGE-DISCIPLINE.md).
 
-> Share your contributor experience in our [feedback survey](https://gra.fan/ome) to help us improve.
+---
 
-## Get involved
+## Platforms
 
-- Follow [@grafana on X (formerly Twitter)](https://x.com/grafana/).
-- Read and subscribe to the [Grafana blog](https://grafana.com/blog/).
-- If you have a specific question, check out our [discussion forums](https://community.grafana.com/).
-- For general discussions, join us on the [official Slack](https://slack.grafana.com) team.
+Windows · Linux · macOS · iOS · Android
 
-This project is tested with [BrowserStack](https://www.browserstack.com/).
+---
 
-## License
+## Family — the four-repo pattern
 
-Grafana is distributed under [AGPL-3.0-only](LICENSE). For Apache-2.0 exceptions, see [LICENSING.md](https://github.com/grafana/grafana/blob/HEAD/LICENSING.md).
+UniCORE.Grafana is published as a **four-repo family**:
+
+- `bryanunitek/UniCORE.Grafana` — public on-prem-deployment-shape gift surface
+- `bryanunitek/UniSaaS.UniCORE.Grafana` — public SaaS-deployment-shape gift surface ← **this repo**
+- `bryanunitek/UniCORE.Grafana-Claw` (private) — on-prem-shape working repository
+- `bryanunitek/UniSaaS.UniCORE.Grafana-Claw` (private) — SaaS-shape working repository
+
+---
+
+## Status
+
+**SCAFFOLD-ANCHOR** as of 2026-06-04. See [`STATUS.md`](STATUS.md) for the full status breakdown.
+
+---
+
+## Files in this scaffold commit
+
+- [`README.md`](README.md) — this file
+- [`LICENSE.md`](LICENSE.md) — UniCORE additions licence
+- [`STATUS.md`](STATUS.md) — scaffold-anchor status
+- [`UPSTREAM-MERGE-DISCIPLINE.md`](UPSTREAM-MERGE-DISCIPLINE.md) — canonical merge discipline
+- [`AI-AUTHORSHIP.md`](AI-AUTHORSHIP.md) — AI authorship disclosure
+
+---
+
+## Related repositories — UniCORE programme
+
+**Foundation triad (gift, public, CC BY 4.0):**
+- [`UniVERSE`](https://github.com/bryanunitek/UniVERSE) — programme
+- [`TrueAI`](https://github.com/bryanunitek/TrueAI) — Foundation (Nine Invariants)
+- [`UniCORE-AI`](https://github.com/bryanunitek/UniCORE-AI) — reference architecture (12 Levels)
+
+**Implementation reference (deployment-shape pair):**
+- [`UniCORE`](https://github.com/bryanunitek/UniCORE) — on-prem-shape
+- [`UniSaaS.UniCORE`](https://github.com/bryanunitek/UniSaaS.UniCORE) — SaaS-shape
+
+**Substrate-services layer (deployment-shape pair):**
+- [`UniCORE.GVB`](https://github.com/bryanunitek/UniCORE.GVB) — on-prem-shape
+- [`UniSaaS.UniCORE.GVB`](https://github.com/bryanunitek/UniSaaS.UniCORE.GVB) — SaaS-shape
+
+---
+
+## Contact
+
+- **Public discussion:** [GitHub Discussions](https://github.com/bryanunitek/UniSaaS.UniCORE.Grafana/discussions)
+- **Private contact / connection request:** [LinkedIn — Bryan Fred](https://www.linkedin.com/in/bryan-fred-02209753/)
+
+---
+
+*Author: Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom. Public. Given, not sold. Irrevocable.*
