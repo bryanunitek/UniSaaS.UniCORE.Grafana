@@ -168,7 +168,7 @@ require (
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang-jwt/jwt/v4 v4.5.2 // indirect
 	github.com/golang-jwt/jwt/v5 v5.3.1 // indirect
-	github.com/golang-migrate/migrate/v4 v4.7.0 // indirect
+	github.com/golang-migrate/migrate/v4 v4.19.1 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/google/btree v1.1.3 // indirect
 	github.com/google/cel-go v0.28.0 // indirect
@@ -328,7 +328,6 @@ require (
 	golang.org/x/text v0.37.0 // indirect
 	golang.org/x/time v0.15.0 // indirect
 	golang.org/x/tools v0.44.0 // indirect
-	golang.org/x/tools/godoc v0.1.0-deprecated // indirect
 	golang.org/x/xerrors v0.0.0-20240903120638-7835f813f4da // indirect
 	gomodules.xyz/jsonpatch/v2 v2.5.0 // indirect
 	gonum.org/v1/gonum v0.17.0 // indirect
