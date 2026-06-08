@@ -5,7 +5,7 @@ go 1.26.3
 require (
 	github.com/cespare/xxhash/v2 v2.3.0
 	github.com/grafana/authlib v0.0.0-20260316143530-e1d123886039
-	github.com/grafana/grafana-plugin-sdk-go v0.291.0
+	github.com/grafana/grafana-plugin-sdk-go v0.291.1
 	github.com/open-feature/go-sdk v1.17.1
 	github.com/open-feature/go-sdk-contrib/providers/ofrep v0.1.7
 	github.com/puzpuzpuz/xsync/v4 v4.4.0
@@ -42,7 +42,6 @@ require (
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.43.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.43.0 // indirect
 	go.opentelemetry.io/otel/metric v1.43.0 // indirect
-	go.opentelemetry.io/otel/sdk v1.43.0 // indirect
 	go.opentelemetry.io/otel/sdk/metric v1.43.0 // indirect
 	go.opentelemetry.io/otel/trace v1.43.0 // indirect
 	go.uber.org/mock v0.6.0 // indirect
