@@ -27,8 +27,8 @@ require (
 	github.com/Masterminds/sprig/v3 v3.3.0 // @grafana/grafana-backend-group
 	github.com/VividCortex/mysqlerr v1.0.0 // @grafana/grafana-backend-group
 	github.com/alicebob/miniredis/v2 v2.35.0 // @grafana/alerting-backend
-	github.com/andybalholm/brotli v1.2.0 // @grafana/partner-datasources
-	github.com/apache/arrow-go/v18 v18.5.2 // @grafana/plugins-platform-backend
+	github.com/andybalholm/brotli v1.2.1 // @grafana/partner-datasources
+	github.com/apache/arrow-go/v18 v18.6.0 // @grafana/plugins-platform-backend
 	github.com/armon/go-radix v1.0.0 // @grafana/grafana-app-platform-squad
 	github.com/aws/aws-sdk-go v1.55.7 // @grafana/aws-datasources
 	github.com/aws/aws-sdk-go-v2 v1.41.7 // @grafana/aws-datasources
@@ -227,7 +227,7 @@ require (
 	k8s.io/kube-aggregator v0.35.0 // @grafana/grafana-app-platform-squad
 	k8s.io/kube-openapi v0.0.0-20260127142750-a19766b6e2d4 // @grafana/grafana-app-platform-squad
 	k8s.io/utils v0.0.0-20251002143259-bc988d571ff4 // @grafana/partner-datasources
-	modernc.org/sqlite v1.48.2 // @grafana/grafana-backend-group
+	modernc.org/sqlite v1.49.1 // @grafana/grafana-backend-group
 	pgregory.net/rapid v1.2.0 // @grafana/grafana-operator-experience-squad
 	sigs.k8s.io/randfill v1.0.0 // @grafana/grafana-app-platform-squad
 	sigs.k8s.io/structured-merge-diff/v6 v6.3.2 // @grafana/grafana-app-platform-squad
@@ -408,7 +408,7 @@ require (
 	github.com/cheekybits/genny v1.0.0 // indirect
 	github.com/chromedp/cdproto v0.0.0-20250803210736-d308e07a266d // indirect
 	github.com/clipperhouse/displaywidth v0.10.0 // indirect
-	github.com/clipperhouse/uax29/v2 v2.6.0 // indirect
+	github.com/clipperhouse/uax29/v2 v2.7.0 // indirect
 	github.com/cloudflare/circl v1.6.3 // indirect
 	github.com/cncf/xds/go v0.0.0-20251210132809-ee656c7534f5 // indirect
 	github.com/cockroachdb/apd/v3 v3.2.1 // indirect
@@ -464,7 +464,7 @@ require (
 	github.com/go-openapi/swag/yamlutils v0.25.5 // indirect
 	github.com/go-openapi/validate v0.25.2 // indirect
 	github.com/go-viper/mapstructure/v2 v2.5.0 // indirect
-	github.com/goccy/go-json v0.10.5 // indirect
+	github.com/goccy/go-json v0.10.6 // indirect
 	github.com/gofrs/uuid v4.4.0+incompatible // indirect
 	github.com/gogo/googleapis v1.4.1 // indirect
 	github.com/gogo/status v1.1.1 // indirect
@@ -529,7 +529,6 @@ require (
 	github.com/joshlf/go-acl v0.0.0-20200411065538-eae00ae38531 // indirect
 	github.com/jpillora/backoff v1.0.0 // indirect
 	github.com/jszwedko/go-datemath v0.1.1-0.20230526204004-640a500621d6 // indirect
-	github.com/klauspost/asmfmt v1.3.2 // indirect
 	github.com/klauspost/compress v1.18.5 // indirect
 	github.com/klauspost/cpuid/v2 v2.3.0 // indirect
 	github.com/kylelemons/godebug v1.1.0 // indirect
@@ -549,14 +548,12 @@ require (
 	github.com/mattn/go-colorable v0.1.14 // indirect
 	github.com/mattn/go-ieproxy v0.0.12 // indirect
 	github.com/mattn/go-localereader v0.0.1 // indirect
-	github.com/mattn/go-runewidth v0.0.19 // indirect
+	github.com/mattn/go-runewidth v0.0.20 // indirect
 	github.com/maypok86/otter v1.2.4 // indirect
 	github.com/mdlayher/socket v0.5.1 // indirect
 	github.com/mdlayher/vsock v1.2.1 // indirect
 	github.com/mfridman/interpolate v0.0.2 // indirect
 	github.com/miekg/dns v1.1.69 // indirect
-	github.com/minio/asm2plan9s v0.0.0-20200509001527-cdd76441f9d8 // indirect
-	github.com/minio/c2goasm v0.0.0-20190812172519-36a3d3bbc4f3 // indirect
 	github.com/mitchellh/copystructure v1.2.0 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/mitchellh/go-wordwrap v1.0.1 // indirect
@@ -606,7 +603,7 @@ require (
 	github.com/ovh/go-ovh v1.9.0 // indirect
 	github.com/pelletier/go-toml/v2 v2.2.4 // indirect
 	github.com/perimeterx/marshmallow v1.1.5 // indirect
-	github.com/pierrec/lz4/v4 v4.1.25 // indirect
+	github.com/pierrec/lz4/v4 v4.1.26 // indirect
 	github.com/pires/go-proxyproto v0.8.1 // indirect
 	github.com/pkg/browser v0.0.0-20240102092130-5ac0b6a4141c // indirect
 	github.com/pkg/errors v0.9.1 // indirect
@@ -707,7 +704,7 @@ require (
 	gopkg.in/telebot.v3 v3.3.8 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/kms v0.35.1 // indirect
-	modernc.org/libc v1.70.0 // indirect
+	modernc.org/libc v1.72.0 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.11.0 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.34.0 // indirect
