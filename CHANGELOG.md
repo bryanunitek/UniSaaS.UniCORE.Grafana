@@ -1,3 +1,35 @@
+<!-- 13.1.2 START -->
+
+# 13.1.2 (2026-08-04)
+
+### Bug fixes
+
+- **Logs Table:** Fix missing results when logs stream [#128946](https://github.com/grafana/grafana/pull/128946), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])
+- **Logs Table:** Fix mixed usage of field name and display name [#128698](https://github.com/grafana/grafana/pull/128698), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])
+- **Security**: Fix CVE-2026-13438
+
+<!-- 13.1.2 END -->
+<!-- 13.1.1 START -->
+
+# 13.1.1 (2026-07-21)
+
+### Features and enhancements
+
+- **Go:** Update version to 1.26.5 [#128015](https://github.com/grafana/grafana/pull/128015), [@macabu](https://github.com/macabu)
+- **Provisioning:** Improve form errors for github connections [#128177](https://github.com/grafana/grafana/pull/128177), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])
+- **Provisioning:** make sync per-resource write timeout configurable [#127868](https://github.com/grafana/grafana/pull/127868), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])
+
+### Bug fixes
+
+- **Accessibility:** Ensure `InlineToast` contents are announced by screenreaders [#128687](https://github.com/grafana/grafana/pull/128687), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])
+- **DashboardDS:** Fix chained dashboard datasource panels showing stale data [#127248](https://github.com/grafana/grafana/pull/127248), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])
+- **Provisioning:** make GitHub webhook creation idempotent (fix repos stuck unhealthy with HTTP 422) [#128201](https://github.com/grafana/grafana/pull/128201), [@floriecai](https://github.com/floriecai)
+
+### Plugin development fixes & changes
+
+- **Pagination:** Set `aria-current` on active page [#128518](https://github.com/grafana/grafana/pull/128518), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])
+
+<!-- 13.1.1 END -->
 <!-- 13.1.0 START -->
 
 # 13.1.0 (2026-06-23)
